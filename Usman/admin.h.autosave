@@ -1,0 +1,15 @@
+#ifndef ADMIN_H
+#define ADMIN_H
+
+class Admin : public User
+{
+public:
+    Admin();
+    
+private:
+    // admin has projects
+    // admins preferences
+
+};
+
+#endif // ADMIN_H

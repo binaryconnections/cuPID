@@ -1,0 +1,17 @@
+#ifndef USER_H
+#define USER_H
+
+class User
+{
+public:
+    User();
+    
+    
+private:
+    String fname;
+    String lname;
+    int    uID;
+    
+};
+
+#endif // USER_H
