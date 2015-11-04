@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>preferencePage</class>
+ <widget class="QWidget" name="preferencePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>62</y>
+     <width>455</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>437</width>
+      <height>1846</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="gpaLabel">
+       <property name="text">
+        <string>GPA</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="gpaButton1">
+       <property name="text">
+        <string>4-6</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gpaButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="gpaButton2">
+       <property name="text">
+        <string>10-12</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gpaButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="gpaButton3">
+       <property name="text">
+        <string>7-9</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gpaButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="gpaButton4">
+       <property name="text">
+        <string>1-3</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gpaButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="prereqLabel">
+       <property name="text">
+        <string>Prerequisite Grade</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="prereqButton1">
+       <property name="text">
+        <string>A's</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">prereqButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="prereqButton2">
+       <property name="text">
+        <string>B's</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">prereqButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="prereqButton3">
+       <property name="text">
+        <string>C's</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">prereqButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="prereqButton4">
+       <property name="text">
+        <string>D,s</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">prereqButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="APELabel">
+       <property name="text">
+        <string>APE Standing</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="apeButton1">
+       <property name="text">
+        <string>Good Standing</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">apeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="apeButton2">
+       <property name="text">
+        <string>Warning</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">apeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="apeButton3">
+       <property name="text">
+        <string>Suspended</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">apeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="workloadLabel">
+       <property name="text">
+        <string>Workload</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="workLoadButton1">
+       <property name="text">
+        <string>Part-time</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">workloadButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="workLoadButton2">
+       <property name="text">
+        <string>Full-time</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">workloadButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="workLoadButton3">
+       <property name="text">
+        <string>Overload</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">workloadButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="outcomeLabel">
+       <property name="text">
+        <string>Desired outcome in course</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="outcomeButton1">
+       <property name="text">
+        <string>A's</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">outcomeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="outcomeButton2">
+       <property name="text">
+        <string>B's</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">outcomeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="outcomeButton3">
+       <property name="text">
+        <string>C's</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">outcomeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="outcomeButton4">
+       <property name="text">
+        <string>D,s</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">outcomeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="sleepLabel">
+       <property name="text">
+        <string>Sleeping habits</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="sleepButton1">
+       <property name="text">
+        <string>Early bird</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">sleepButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="sleepButton2">
+       <property name="text">
+        <string>Night owl</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">sleepButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="sleepButton3">
+       <property name="text">
+        <string>Sporadic</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">sleepButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="proximityLabel">
+       <property name="text">
+        <string>Proximity</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="proxiButton1">
+       <property name="text">
+        <string>On-campus</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">proximityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="proxiButton2">
+       <property name="text">
+        <string>Off-campus</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">proximityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="proxiButton3">
+       <property name="text">
+        <string>Distant Student</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">proximityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="commSkillsLabel">
+       <property name="text">
+        <string>Communication skills</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="commButton1">
+       <property name="text">
+        <string>Strong</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">commSkillsButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="commButton2">
+       <property name="text">
+        <string>Average</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">commSkillsButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="commButton3">
+       <property name="text">
+        <string>Weak</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">commSkillsButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="agreeLabel">
+       <property name="text">
+        <string>Agreeability</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="agreeButton1">
+       <property name="text">
+        <string>High</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">agreeabilityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="agreeButton2">
+       <property name="text">
+        <string>Medium</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">agreeabilityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="agreeButton3">
+       <property name="text">
+        <string>Low</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">agreeabilityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="problemLabel">
+       <property name="text">
+        <string>Problem solving skills</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="problemButton1">
+       <property name="text">
+        <string>Strong</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">problemSolvingButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="problemButton2">
+       <property name="text">
+        <string>Average</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">problemSolvingButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="problemButton3">
+       <property name="text">
+        <string>Weak</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">problemSolvingButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="punctualLabel">
+       <property name="text">
+        <string>Punctual</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="punctualButton1">
+       <property name="text">
+        <string>Always</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">punctualityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="punctualButton2">
+       <property name="text">
+        <string>Often</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">punctualityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="punctualButton3">
+       <property name="text">
+        <string>Sometimes</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">punctualityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="punctualButton4">
+       <property name="text">
+        <string>Never</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">punctualityButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="initiativeLabel">
+       <property name="text">
+        <string>Takes initiative</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="initButton1">
+       <property name="text">
+        <string>Always</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">initiativeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="initButton2">
+       <property name="text">
+        <string>Often</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">initiativeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="initButton3">
+       <property name="text">
+        <string>Sometimes</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">initiativeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="initButton4">
+       <property name="text">
+        <string>Never</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">initiativeButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="reliableLabel">
+       <property name="text">
+        <string>Reliable</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="reliableButton1">
+       <property name="text">
+        <string>Very</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">reliableButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="reliableButton2">
+       <property name="text">
+        <string>Mostly</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">reliableButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="reliableButton3">
+       <property name="text">
+        <string>Somewhat</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">reliableButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="reliableButton4">
+       <property name="text">
+        <string>Not Very</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">reliableButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="organizedLabel">
+       <property name="text">
+        <string>Organized</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="organizedButton1">
+       <property name="text">
+        <string>Very</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">organizedButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="organizedButton2">
+       <property name="text">
+        <string>Mostly</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">organizedButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="organizedButton3">
+       <property name="text">
+        <string>Somewhat</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">organizedButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="organizedButton4">
+       <property name="text">
+        <string>Not Very</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">organizedButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="collabLabel">
+       <property name="text">
+        <string>Previous Collaboration Experience</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="collabButton1">
+       <property name="text">
+        <string>Plenty</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">collabButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="collabButton2">
+       <property name="text">
+        <string>Little</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">collabButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="collabButton3">
+       <property name="text">
+        <string>None</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">collabButtonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Preferences&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="sleepButtonGroup"/>
+  <buttongroup name="agreeabilityButtonGroup"/>
+  <buttongroup name="apeButtonGroup"/>
+  <buttongroup name="organizedButtonGroup"/>
+  <buttongroup name="proximityButtonGroup"/>
+  <buttongroup name="problemSolvingButtonGroup"/>
+  <buttongroup name="reliableButtonGroup"/>
+  <buttongroup name="commSkillsButtonGroup"/>
+  <buttongroup name="collabButtonGroup"/>
+  <buttongroup name="outcomeButtonGroup"/>
+  <buttongroup name="punctualityButtonGroup"/>
+  <buttongroup name="initiativeButtonGroup"/>
+  <buttongroup name="prereqButtonGroup"/>
+  <buttongroup name="workloadButtonGroup"/>
+  <buttongroup name="gpaButtonGroup"/>
+ </buttongroups>
+</ui>
